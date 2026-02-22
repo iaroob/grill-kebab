@@ -5,6 +5,7 @@ const PHONE_2 = "📞 670 118 608";
 const ADDRESS = "📍 Av. Perez Galdos 21 B, Castellon de la Plana";
 
 import { menuCards, menuSharing, foodItems } from './data/menu';
+import logo from './assets/image.png';
 
 export default function App() {
   return (
@@ -34,7 +35,7 @@ export default function App() {
           {/* Logo + Name */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <div className="w-40 h-40 rounded-full border-1 border-amber-500 shadow-lg shadow-amber-900/40 flex-shrink-0 overflow-hidden">
-              <img src="../assets/image.png" alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
+              <img src={logo} alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
             </div>
             <div className="text-center sm:text-left">
               <h1 className="font-display text-4xl sm:text-7xl tracking-widest text-amber-400 leading-none">
@@ -158,7 +159,7 @@ export default function App() {
       <footer className="w-full bg-stone-900 border-t border-amber-600/40 mt-16">
         <div className="w-full px-8 py-10 text-center">
           <div className="w-20 h-20 rounded-full border-2 border-amber-500 mx-auto mb-4 shadow-lg overflow-hidden">
-            <img src="src/assets/image.png" alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
+            <img src={logo} alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
           </div>
 
           <h2 className="font-display text-4xl text-amber-400 tracking-widest mb-6">GRILL KEBAB Y TACOS</h2>
