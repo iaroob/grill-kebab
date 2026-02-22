@@ -34,7 +34,7 @@ export default function App() {
           {/* Logo + Name */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <div className="w-40 h-40 rounded-full border-1 border-amber-500 shadow-lg shadow-amber-900/40 flex-shrink-0 overflow-hidden">
-              <img src="src/assets/image.png" alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
+              <img src="../assets/image.png" alt="Grill Kebab y Tacos" className="w-full h-full object-cover" />
             </div>
             <div className="text-center sm:text-left">
               <h1 className="font-display text-4xl sm:text-7xl tracking-widest text-amber-400 leading-none">
