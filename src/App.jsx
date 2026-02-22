@@ -4,60 +4,7 @@ const PHONE_1 = "📞 637 183 253";
 const PHONE_2 = "📞 670 118 608";
 const ADDRESS = "📍 Av. Perez Galdos 21 B, Castellon de la Plana";
 
-const menuCards = [
-  { id: 1,  name: "Menú Taco",               price: "9.00€", img: "src/assets/food-images/taco.jpg" },
-  { id: 2,  name: "Menú Kapsalon",            price: "9.00€", img: "src/assets/food-images/kapsalon.png" },
-  { id: 3,  name: "Menú Gratinado",           price: "9.00€", img: "src/assets/food-images/gratinadoo.png" },
-  { id: 4,  name: "Menú Kebab",               price: "6.50€", img: "src/assets/food-images/Kebab.png" },
-  { id: 5,  name: "Menú Durum",               price: "7.00€", img: "src/assets/food-images/durum.png" },
-  { id: 6,  name: "Menú Plato",               price: "8.00€", img: "src/assets/food-images/plato.png" },
-  { id: 7,  name: "Menú Hamburguesa",         price: "7.00€", img: "src/assets/food-images/hamburguesa.png" },
-  { id: 8,  name: "Menú Alitas de Pollo",     price: "7.00€", img: "src/assets/food-images/alitas.png" },
-  { id: 9,  name: "Menú Nuggets de Pollo",    price: "7.00€", img: "src/assets/food-images/nuggets.png" },
-  { id: 10, name: "Menú Tiras de Pollo",      price: "8.00€", img: "src/assets/food-images/tiras.png" },
-  { id: 11, name: "Menú Box Kebab",           price: "5.50€", img: "src/assets/food-images/box.png" },
-  { id: 12, name: "Menú Plato Seekh Kebab",   price: "9.00€", img: "src/assets/food-images/seekh-kebab.png" },
-
-];
-
-const menuSharing = [
-  { id: 1,  name: "Menú 3 Durums ",          price: "22.00€", img: "src/assets/food-images/3durum.png", desc: "Ternera o Pollo con 3 Patatas y Bebida 2 Ltr." },
-  { id: 2,  name: "Menú 3 Kebabs ",          price: "20.00€", img: "src/assets/food-images/3kebab.png", desc: "Ternera o Pollo con 3 Patatas y Bebida 2 Ltr."},
-
-];
-
-const foodItems = [
-  { cat: "Kebabs, Tacos y más", items: [
-    { name: "Durum Gratinado",   price: "7.00€", image: "src/assets/food-images/gratinadoo.png" },
-    { name: "Taco",  price: "7.00€", image: "src/assets/food-images/taco.jpg" },
-    { name: "Kapsalon",     price: "7.00€", image: "src/assets/food-images/kapsalon.png" },
-    { name: "Kebab Normal",   price: "4.00€", image: "src/assets/food-images/Kebab.png" },
-    { name: "Kebab Grande", price: "5.00€", image: "src/assets/food-images/Kebab.png"  },
-    { name: "Durum Normal",   price: "4.00€", image: "src/assets/food-images/durum.png"  },
-    { name: "Durum Grande", price: "5.00€", image: "src/assets/food-images/durum.png"  },
-    { name: "Hamburguesa",   price: "4.00€", image: "src/assets/food-images/hamburguesa.png"  },
-    { name: "Box Kebab", price: "4.50€", image: "src/assets/food-images/box.png"  },
-    { name: "Samosa",   price: "4.00€", image: "src/assets/food-images/samosa.png"  },
-    { name: "Pakora", price: "3.50€", image: "src/assets/food-images/pakora.png"  },
-    { name: "Patatas Fritas",   price: "3.50€", image: "src/assets/food-images/patatas.png" },
-    { name: "Patatas Fritas con Queso",   price: "4.50€", image: "src/assets/food-images/queso.png" },
-    { name: "Ensalada Mixta",   price: "5.00€", image: "src/assets/food-images/ensalada.png" },
-
-  ]},
-
-  { cat: "Bebidas", items: [
-    { name: "Agua pequeña",       price: "1.00€", image: "src/assets/food-images/pequeña.png"  },
-    { name: "Agua grande", price: "1.50€", image: "src/assets/food-images/grande.png"  },
-    { name: "Coca Cola o Coca Cola Zero",           price: "1.80€", image: "src/assets/food-images/cola.png"  },
-    { name: "Fanta Naranja o Limon",        price: "1.80€", image: "src/assets/food-images/fanta.png" },
-    { name: "Pepsi",        price: "1.80€", image: "src/assets/food-images/pepsi.png" },
-    { name: "Sprite",        price: "1.80€", image: "src/assets/food-images/sprite.png"  },
-    { name: "Cerveza Sin Alcohol",        price: "1.80€", image: "src/assets/food-images/cerveza.png"  },
-    { name: "Zumos",        price: "1.80€", image: "src/assets/food-images/zumo.png" },
-    { name: "Nestea",        price: "2.00€", image: "src/assets/food-images/nestea.png" },
-    { name: "Aquarius",        price: "2.00€", image: "src/assets/food-images/aquarius.png"  },
-  ]},
-];
+import { menuCards, menuSharing, foodItems } from './data/menu';
 
 export default function App() {
   return (
